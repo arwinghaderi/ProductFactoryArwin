@@ -1,0 +1,13 @@
+@font-face {
+    font-family:'ProductSans-Bold';
+    src: url('../fonts/ProductSans-Bold.ttf')  format('TrueType');
+}
+@font-face {
+    font-family:'ProductSans-Regular';
+    src: url('../fonts/ProductSans-Regular.ttf')  format('TrueType');
+}
+@font-face {
+    font-family:'dana-regular';
+    src: url('../fonts/dana\ regular.ttf')  format('TrueType');
+
+}

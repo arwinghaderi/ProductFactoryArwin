@@ -1,0 +1,486 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+    .menu__list-item {
+        margin-right: 3rem;
+    }
+
+    .menu {
+        margin-left: 2rem;
+    }
+
+    .home {
+        padding: 5rem 5rem;
+    }
+
+    .home__content {
+        padding-right: 5rem;
+    }
+
+    .about-us {
+        padding: 5rem 5rem;
+    }
+
+    .about-us__waraper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .social__media {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin-top: 5rem;
+    }
+
+    .about-us__description {
+        margin-top: 5rem;
+        font-size: 1.6rem;
+    }
+
+    .course-experience {
+        padding: 5rem 5rem;
+    }
+
+    .sessions-date {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .sessions-content {
+
+        padding: 2rem 3rem 0rem 3rem;
+    }
+
+    .section-head__title {
+        font-size: 2.8rem;
+    }
+
+    .schedule-date-table {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width:992px) {
+    .hamburger-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        z-index: 150;
+    }
+
+    /* NAV BAR DESKTOP */
+    .nav-bar__btn-box {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* MOBAIL MENU */
+
+    .menu-mobail {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 20rem;
+        background-color: rgb(0, 0, 0,90%);
+        opacity: 0;
+        visibility: hidden;
+        height: 75rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 3rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        -webkit-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        z-index: 150;
+    }
+
+    .menu-mobail--active {
+
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-mobail__list-item {
+        margin-top: 3rem;
+        margin-left: 2rem;
+        cursor: pointer;
+
+    }
+
+    .menu-mobail__list-item--active.menu-mobail__list-item {
+        max-width: 100%;
+        background-color: #F46632;
+        padding: 1rem 1rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+
+
+    .menu-mobail__list-link {
+        color: #fff;
+    }
+
+    .menu-mobail__btn-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 5rem;
+
+    }
+
+    .menu-mobail__btn-link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 15rem;
+        height: 3.5rem;
+        background-color: rgb(255, 255, 255, 10%);
+        border-radius: 2.1rem;
+        color: #FFFFFF;
+
+    }
+
+    .menu-mobail__title {
+        color: #FFFFFF;
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+
+    }
+
+    /* HOME */
+    .home {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
+    }
+
+    .home__content {
+        padding-right: 0rem;
+    }
+
+    .home__link {
+        width: 100%;
+    }
+
+    .home__link-btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+
+    }
+
+    .home-poster {
+        margin-top: 10rem;
+    }
+
+    .main {
+        margin-top: 90rem;
+    }
+
+    .course-experience__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .course-experience__poster {
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+    }
+
+    .course-experience__box-description {
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        margin-top: 5rem;
+    }
+
+    .course-experience__col {
+        padding: 0rem 0rem;
+    }
+
+    .home__title::before {
+        display: none;
+
+    }
+
+    .section-head__title::before {
+        display: none;
+    }
+
+    .course-fee-content__icon-box {
+        display: none;
+    }
+
+    .course-fee-content {
+        text-align: center;
+    }
+
+    .course-fee-content__decription {
+        margin-left: 0rem;
+    }
+
+    .contact-us-form-box {
+        padding-right: 0rem;
+    }
+
+    .contact-us__shepe-img {
+        display: none;
+    }
+
+    .schedule-start-end__dashed-line::before,
+    .schedule-start-end__dashed-line::after {
+        display: none;
+    }
+
+    .schedule-start-end {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 10rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .course-experience__col {
+        border: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+    }
+
+    .sessions-date {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .sessions-date__box {
+        margin-top: 1rem;
+    }
+
+    .sessions-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .sessions-content__discription {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .sessions {
+        padding: 0rem 0rem;
+    }
+
+    .home {
+        padding: 5rem 2rem;
+    }
+
+    .masters {
+        padding: 10rem 2rem 5rem 2rem;
+    }
+
+    .asked-questions__accordion-title {
+        font-size: 1.3rem;
+    }
+
+    .asked-questions__accordion {
+        padding: 0rem 0rem;
+    }
+
+    .asked-questions__content-accordion {
+        padding: 2rem 2rem;
+    }
+
+    .course-fee {
+        padding: 10rem 2rem 5rem 2rem;
+    }
+
+    .schedule-register {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 1rem;
+    }
+
+    .app-logo__img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .about-us__description {
+        text-align: center;
+    }
+
+    .course-experience__description {
+        text-align: center;
+    }
+
+    .course-experience {
+        padding: 5rem 2rem;
+    }
+
+    .about-us {
+        padding: 5rem 2rem;
+    }
+
+    .sessions-content {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .asked-questions__content-accordion {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 2rem 2rem;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+
+    .masters-content__img {
+        width: 100%;
+    }
+
+    .masters-content__title {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .masters-content__caption {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .section-head__title--asked-questions {
+        font-size: 2.8rem;
+    }
+
+    .messege-box-send {
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .course-experience__img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .about-us__img {
+        width: 25rem;
+    }
+
+    .course-experience__col {
+        font-size: 1.1rem;
+    }
+
+    .asked-questions__accordion-title {
+        text-align: center;
+    }
+
+    .masters-content__title {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .masters-content__caption {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .section-head__title--asked-questions {
+        font-size: 2rem;
+    }
+
+    .contact-us-form-box {
+        text-align: center;
+    }
+
+    .footer__social-media-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+}
