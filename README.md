@@ -9,7 +9,7 @@
 <br>
 
 > <h2>📄 About the project </h2> 
-- <p> projectName : positivus </p>
+- <p> projectName : Product Factory </p>
 - <p>The project is completely static and coded using the UI design</p>
 - <p>using html css and a small percentage of js</p>
 
